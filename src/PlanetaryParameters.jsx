@@ -190,7 +190,7 @@ class PlanetPresetSelection extends React.Component {
         super(props);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleChange = this.handleChange.bind(this);
-        this.state = { value: 'MARS' }
+        this.state = { value: 'VENUS' }
     }
 
     handleChange(event) {
