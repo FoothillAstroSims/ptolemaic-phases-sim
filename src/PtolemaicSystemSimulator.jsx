@@ -94,7 +94,7 @@ export default class PtolemaicSystemSimulator extends React.Component {
                         </div>
                         <div className="transparentControlSection">
                             <div id="survey">
-                                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=n7L3RQCxQUyAT7NBighZStjAWTIFlutChq8ZZEGLLMdUMDYyTFJPMTZTQkpSVVhNSFdVRzgwTjhJMC4u"
+                                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=n7L3RQCxQUyAT7NBighZStjAWTIFlutChq8ZZEGLLMdUNkcwRjE1SVFROVBLMFFMR0hYV0ZMM0hFNS4u"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 >
