@@ -14,11 +14,11 @@ export default class PtolemaicSystemSimulator extends React.Component {
         this.orbitViewRef = React.createRef();
         this.state = {
             planetaryParameters: {
-                epicycleSize: 0.66,
-                eccentricity: 0.10,
-                motionRate: 0.52,
-                apogeeAngle: 106.7,
-                planetType: PlanetTypes.SUPERIOR,
+                epicycleSize: 0.72,
+                eccentricity: 0.02,
+                motionRate: 1.60,
+                apogeeAngle: 46.2,
+                planetType: PlanetTypes.INFERIOR,
             },
             controls: {
                 isAnimationEnabled: false,
