@@ -9,30 +9,30 @@ import NumberInputField from './Inputs/NumberInputField.jsx';
  */
 const planet = {
     VENUS: 1,
-    MARS: 2,
+    /**MARS: 2,
     JUPITER: 3,
-    SATURN: 4,
+    SATURN: 4,*/
 }
 
 /**
  * Predefined data values for the planets.
  */
 const planetPresets = {
-    [planet.JUPITER]: {
+    /**[planet.JUPITER]: {
         epicycleSize: 0.19,
         eccentricity: 0.05,
         motionRate: 0.08,
         apogeeAngle: 152.2,
         planetType: PlanetTypes.SUPERIOR,
-    },
+    }, */
     [planet.VENUS]: {
         epicycleSize: 0.72,
         eccentricity: 0.02,
         motionRate: 1.60,
         apogeeAngle: 46.2,
         planetType: PlanetTypes.INFERIOR,
-    },
-    [planet.MARS]: {
+    }
+    /**[planet.MARS]: {
         epicycleSize: 0.66,
         eccentricity: 0.10,
         motionRate: 0.52,
@@ -45,7 +45,7 @@ const planetPresets = {
         motionRate: 0.03,
         apogeeAngle: 224.2,
         planetType: PlanetTypes.SUPERIOR,
-    }
+    }*/
 }
 
 
@@ -114,18 +114,6 @@ export default class PlanetaryParameters extends React.Component {
                 </fieldset>
                 <fieldset>
                     <legend>Planet Type</legend>
-                    <div className="custom-control custom-radio custom-control-inline">
-                        <input
-                            type="radio"
-                            name="planetType"
-                            id="planetTypeRadio1"
-                            value={PlanetTypes.SUPERIOR}
-                            checked={this.props.params.planetType === PlanetTypes.SUPERIOR}
-                            onChange={this.handleRadioBoxes.bind(this)}
-                            className="custom-control-input"
-                        />
-                        <label htmlFor="planetTypeRadio1" className="custom-control-label">Superior</label>
-                    </div>
                     <div className="custom-control custom-radio custom-control-inline">
                         <input
                             type="radio"
