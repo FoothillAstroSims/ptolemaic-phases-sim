@@ -55,7 +55,7 @@ export default class ControlsAndSettings extends React.Component {
                     {/*{CheckBox("showEarthSunLine", "Show Earth-Sun Line")}*/}
                     {/*{CheckBox("showEpicyclePlanetLine", "Show Epicycle Planet Line")}*/}
                     {/*{CheckBox("showEccentricDeferentLine", "Show Eccentric-Deferent Line")}*/}
-                    {CheckBox("showElongationAngle", "Show Elongation Angle")}
+                    {/*{CheckBox("showElongationAngle", "Show Elongation Angle")}*/}
                 </div>
                 <p></p>
                 <label htmlFor="pathDuration">Path Duration</label>
