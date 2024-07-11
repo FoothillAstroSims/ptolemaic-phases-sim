@@ -1,6 +1,6 @@
 {
   "name": "ptolemaic-system-simulator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "re-implementation of NAAP Ptolemaic System Simulator  https://astro.unl.edu/naap/ssm/animations/ptolemaic.html",
   "main": "main.jsx",
   "private": true,
@@ -22,27 +22,27 @@
   },
   "homepage": "https://github.com/FoothillAstroSims/Ptolemaic-System-Simulator#readme",
   "dependencies": {
-    "bootstrap": "^4.5.0",
-    "d3-scale": "^3.2.1",
-    "jquery": "^3.5.1",
-    "pixi.js": "^5.3.0",
-    "popper.js": "^1.16.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "bootstrap": "4.6",
+    "d3-scale": "^4.0.2",
+    "jquery": "3.7.1",
+    "pixi.js": "^6.5.1",
+    "popper.js": "1.16.1",
+    "react": "*",
+    "react-dom": "*"
   },
   "devDependencies": {
-    "@babel/core": "^7.10.3",
-    "@babel/preset-env": "^7.10.3",
-    "@babel/preset-react": "^7.10.1",
-    "babel-loader": "^8.1.0",
-    "css-loader": "^3.6.0",
-    "eslint": "^6.8.0",
-    "eslint-plugin-react": "^7.20.0",
-    "jsdoc": "^3.6.4",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "*",
+    "@babel/preset-react": "*",
+    "babel-loader": "*",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.21.0",
+    "eslint-plugin-react": "^7.30.1",
+    "jsdoc": "^4.0.3",
     "style-loader": "^1.2.1",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "webpack": "^5.92.1",
+    "webpack-cli": "*",
+    "webpack-dev-server": "*"
   },
   "babel": {
     "presets": [
